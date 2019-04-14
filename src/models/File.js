@@ -9,7 +9,6 @@ const File = new mongoose.Schema({
         type: String,
         required: true
     },
-    files: []
 },{
     timestamps: true,
     toObject: { virtuals: true},
